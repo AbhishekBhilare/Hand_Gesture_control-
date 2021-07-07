@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body
+{
+    margin: 0;
+    padding: 0;
+    background : url(/static/bgm.jpg) no-repeat;
+    font-family: sans-serif;
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 40px;
+        background: #000000;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #ffffff ;
+    padding: 40px;
+
+}
+label{
+    color: #ffffff;
+    font-size: 17px;
+}
+#username{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#password{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color:#696969;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+      .blue {
+        color: #1c87c9;
+      }
+    </style>
+</head>
+<body>
+    <h2><p style="text-align:center;color:white;font-size:40px"><b>GESTURE CONTROLLED SMART APPLIANCES</b></p></h2><br>
+    <div class="login">
+        <center>
+    <form id="login" method="post" action="{{ url_for('login') }}">
+        <div class="blue"><strong>{{ msg }}</strong></div>
+        </br></br>
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="username" id="username" placeholder="Username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="password" id="password" placeholder="Password">
+        <br><br>
+
+
+            <input class="button" type="submit" name="submit" id="submit" value="Login">
+        </center>
+        <br><br>
+
+    </form>
+</div>
+</body>
+</html>

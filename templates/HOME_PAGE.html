@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet"; href="static/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+   <!-- CSS only -->
+    <Link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <style>
+   body {
+
+
+     height : 100%;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("/static/bgm1.jfif");
+
+
+
+   .container {
+     height: 200px;
+     position: relative;
+     border: 3px solid green;
+     background-color: #acacac;
+   }
+   .vertical-center {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 100%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+
+   }
+
+
+   </style>
+
+      <title>HACK-X-TRONIC</title>
+
+
+
+   </head>
+
+
+   <body background>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#353839;" >
+      <a class="navbar-brand" href="{{ url_for('home') }}"><h1><p style="text-align:center;color:white;font-size:20px;font-family: sans"><b>HOME</b></p></h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ url_for('about') }}" target="_self"><p style="text-align:center;color:white;font-size:20px;font-family: sans"><b>ABOUT</b></p> <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('status') }}"><p style="text-align:center;color:white;font-size:20px;font-family: sans"><b>STATUS</b></p></a>
+          </li>
+
+        </ul>
+
+      </div>
+      <p style="text-align: right;color:white;font-size:50px;font-family:fantasy;"><b>*HACK-X-TRONIC*</b></p>
+    </nav>
+    <br>
+
+
+      <p style="text-align:center;color:#51484f;font-size:40px"><b>TEAM MEMBERS</b></p>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card border-none mb-3">
+            <div class="card-body text-dark" style="background-color:#f4f0ec; font-weight:bold;">
+
+              <h5 class="card-title"><p style="text-align:center;color:black;font-size:30px;"><b> Sridhar Bonda</b></p></h5>
+              <p class="card-text"><p style="text-align:center;color:black;font-size:20px"><b>Third Year</b></p></p>
+
+                <div class="vertical-center" style="text-align:center;" >
+                <a href="https://www.gmail.com/"target="_self"  class="btn btn-primary">Sridhar.bonda123@gmail.com</a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        <div class="col-sm-6">
+          <div class="card border-none mb-3">
+            <div class="card-body text-dark" style="background-color:#f4f0ec; font-weight:bold;">
+              <h5 class="card-title"><p style="text-align:center;color:black;font-size:30px;"><b> Jacob Thomas</b></p></h5>
+              <p class="card-text"><p style="text-align:center;color:black;font-size:20px"><b>Third Year</b></p></p>
+              <div class="vertical-center" style="text-align:center;" >
+              <a href="https://www.gmail.com/"target="_self"  class="btn btn-primary">jacobtp28@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div align="Justify">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card border-none mb-3">
+            <div class="card-body text-dark" style="background-color:#f4f0ec; font-weight:bold;">
+            <h5 class="card-title"><p style="text-align:center;color:black;font-size:30px;"><b> Abhishek Bhilare</b></p></h5>
+              <p class="card-text"><p style="text-align:center;color:black;font-size:20px"><b>Third Year</b></p></p>
+              <div class="vertical-center" style="text-align:center;" >
+              <a href="https://www.gmail.com/"target="_self"  class="btn btn-primary">abhishekbhilarea.b@gmail.com</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="col-sm-6">
+            <div class="card border-none mb-3">
+              <div class="card-body text-dark" style="background-color:#f4f0ec; font-weight:bold;">
+              <h5 class="card-title"><p style="text-align:center;color:black;font-size:30px;"><b>Chetan Velonde</b></p></h5>
+                <p class="card-text"><p style="text-align:center;color:black;font-size:20px"><b>Second Year</b></p></p>
+                <div class="vertical-center" style="text-align:center;" >
+                  <a href="https://www.gmail.com/"target="_self"  class="btn btn-primary">chetancv19@gmail.com</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div align="center">
+      <div class="col-sm-6" >
+        <div class="card border-none mb-3" >
+          <div class="card-body text-dark" style="background-color:#f4f0ec; font-weight:bold;">
+            <h5 class="card-title"><p style="text-align:center;color:black;font-size:30px;"><b>Minal Kale</b></p></h5>
+            <p class="card-text"><p style="text-align:center;color:black;font-size:20px"><b>Second Year</b></p></p>
+              <div class="vertical-center" style="text-align:center;" >
+            <a href="https://www.gmail.com/"target="_self"  class="btn btn-primary">minaljkale18@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+   </body>
+</html>
